@@ -1,0 +1,114 @@
+.contenedor2{   
+    width: 100%;
+}
+.reservas{
+    display: grid;
+    grid-template-rows: 0.2fr 0.5fr 1fr;
+}
+.calendario{
+    display: flex;
+   justify-content: center;
+   
+
+}
+.calendarioT{
+    background-color: white;
+    width: 45%;   
+    height: 20%;
+}
+
+
+#btn1{
+    align-self: flex-end;
+}
+#btn2{
+    margin: 15px 0 0 15px;
+}
+#btn3{
+    align-self: self-end;
+    margin: 0 0 15px 15px;
+}
+.botones{
+    margin-left: 15px;
+}
+
+
+
+footer{
+    width: auto;
+}
+
+.mis_reservas{
+    display: grid;
+    grid-template-rows: 0.25fr 0.5fr 2fr;
+    
+
+}
+.calendarioTR{
+    align-self: center;
+    background-color: white;
+    width: 100%;
+    
+}
+
+.c-calendario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+.listado{
+    width: 100%;
+    margin: 0 0 15px 0;
+}
+
+
+.contenedorL{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.mitabla{
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th, td{
+padding: 5px;
+}
+.mitabla tr:nth-child(odd){
+    background-color: #ddd;
+}
+.mitabla th{
+    background-color: white;
+}
+.contenedor3{
+    width: 100%;
+}
+.misreservas{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr;
+}
+.btn-c{
+    width: 50px; /* Establece el ancho del botón */
+    height: 50px; /* Establece la altura del botón */
+    background-color: rgba(8, 60, 173, 0.479); /* Establece el color de fondo del botón */
+    color: #fff; /* Establece el color del texto en el botón */
+    border: solid 1px  black; /* Quita el borde del botón */
+    border-radius: 100%; /* Establece el radio del borde para hacerlo circular */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón por encima del botón */
+
+    font-size: 30px;
+    
+}
+.btn-reservar a{
+    font-size: 25px;
+    color: black;
+    background-color: white;
+}
+
+
